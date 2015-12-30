@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E221FA20-9FF9-A40C-7389-10B7B34C4C8D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.3.0f4</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\PrimitivePlus\Scripts\PrimitivePlusEditor.cs" />
+    <Compile Include="Assets\ProceduralToolkit\ColorE.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Datasets\Datasets.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Datasets\FemaleNames.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Datasets\LastNames.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Datasets\MaleNames.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Directions.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Boids\BoidController.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Boids\BoidsUI.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Breakout\Breakout.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Breakout\BreakoutUI.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Breakout\Brick.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\CameraRotator.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\ChairGenerator\Armrests.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\ChairGenerator\Backs.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\ChairGenerator\ChairGenerator.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\ChairGenerator\ChairGeneratorUI.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\ChairGenerator\Stretchers.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Khrushchyovka\Khrushchyovka.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Khrushchyovka\KhrushchyovkaUI.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Khrushchyovka\Panels.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Khrushchyovka\Roofs.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Mazes\Cell.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Mazes\Edge.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Mazes\Maze.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Mazes\MazeGenerator.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Mazes\MazeGeneratorUI.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Primitives\Cylinder.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Primitives\Dodecahedron.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Primitives\FlatSphere.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Primitives\Hexahedron.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Primitives\Icosahedron.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Primitives\Octahedron.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Primitives\Plane.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Primitives\Prism.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Primitives\Pyramid.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Primitives\Sphere.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\Primitives\Tetrahedron.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\TerrainMesh\TerrainMesh.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\TerrainMesh\TerrainMeshUI.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\UI\ButtonControl.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\UI\SliderControl.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\UI\TextControl.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\UI\ToggleControl.cs" />
+    <Compile Include="Assets\ProceduralToolkit\Examples\UI\UIBase.cs" />
+    <Compile Include="Assets\ProceduralToolkit\MeshDraft.cs" />
+    <Compile Include="Assets\ProceduralToolkit\MeshDraftPrimitives.cs" />
+    <Compile Include="Assets\ProceduralToolkit\MeshE.cs" />
+    <Compile Include="Assets\ProceduralToolkit\PTUtils.cs" />
+    <Compile Include="Assets\ProceduralToolkit\RandomE.cs" />
+    <Compile Include="Assets\ProceduralToolkit\TextureE.cs" />
+    <Compile Include="Assets\Scripts\Common\BaseTopDownSpaceShip.cs" />
+    <Compile Include="Assets\Scripts\Common\Spawning\PathSpawner.cs" />
+    <Compile Include="Assets\Scripts\Common\Spawning\SpawnController.cs" />
+    <Compile Include="Assets\Scripts\Common\Spawning\TriggerSpawner.cs" />
+    <Compile Include="Assets\Scripts\Common\Utility\TimerClass.cs" />
+    <Compile Include="Assets\Scripts\Core Game Framework\Controllers\BaseGameController.cs" />
+    <Compile Include="Assets\Scripts\Core Game Framework\Controllers\BaseInputController.cs" />
+    <Compile Include="Assets\Scripts\Core Game Framework\Controllers\SimplePlayerController.cs" />
+    <Compile Include="Assets\Scripts\Core Game Framework\Controllers\WaypointsController.cs" />
+    <Compile Include="Assets\Scripts\Core Game Framework\ExtendedCustomMonoBehavior.cs" />
+    <Compile Include="Assets\Scripts\Core Game Framework\Keyboard_Input.cs" />
+    <Compile Include="Assets\Scripts\Core Game Framework\Managers\BasePlayerManager.cs" />
+    <Compile Include="Assets\Scripts\Core Game Framework\Managers\BaseUserManager.cs" />
+    <Compile Include="Assets\Scripts\Core Game Framework\Managers\SceneManager.cs" />
+    <Compile Include="Assets\Scripts\Core Game Framework\Managers\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\Random Tests\DeviceRotation.cs" />
+    <Compile Include="Assets\Scripts\Random Tests\DrawOnTexture.cs" />
+    <Compile Include="Assets\Scripts\Random Tests\TestRotation.cs" />
+    <Compile Include="Assets\Scripts\Test Tool Scripts\Console.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\CrossProduct.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Curves and Splines\Bezier.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Curves and Splines\BezierCurve.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Curves and Splines\BezierCurveInspector.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Curves and Splines\BezierSpline.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Curves and Splines\BezierSplineInspector.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Curves and Splines\CircleVisInspector.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Curves and Splines\CircleVisualizor.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Curves and Splines\Line.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Curves and Splines\LineInspector.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Curves and Splines\SplineRenderer.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Curves and Splines\SplineWalker.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Fractals\FractalScript.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Frames Per Second\FPSCounter.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Frames Per Second\FPSDisplay.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Frames Per Second\Nucleon.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Frames Per Second\NucleonSpawner.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Maze Generation\IntVector2.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Maze Generation\Maze.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Maze Generation\MazeCell.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Maze Generation\MazeDirection.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Maze Generation\MazeGameManager.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Procedural Grid\Grid.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Swirly Pipe\Pipe.cs" />
+    <Compile Include="Assets\Tutorials - CatLikeCoding\Scripts\Swirly Pipe\PipeSystem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\PrimitivePlus\Documentation\ReadMe.txt" />
+    <None Include="Assets\ProceduralToolkit\Shaders\Diffuse Vertex Color.shader" />
+    <None Include="Assets\ProceduralToolkit\Shaders\Specular Vertex Color.shader" />
+    <None Include="Assets\ProceduralToolkit\Shaders\Standard Vertex Color.shader" />
+    <None Include="Assets\ProceduralToolkit\Shaders\Unlit Color.shader" />
+    <None Include="Assets\ProceduralToolkit\Shaders\Unlit Vertex Color.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
